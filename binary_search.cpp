@@ -15,6 +15,7 @@ int main()
     hi=n-1;
     while(lo<=hi){
         mid=(lo+hi)/2;
+        //mid=lo+((hi-lo)/2);
         if(arr[mid]==f){
             cout<<mid<<endl;
             p=1;
